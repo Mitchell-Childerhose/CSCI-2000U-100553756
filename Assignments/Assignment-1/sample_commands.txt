@@ -1,0 +1,10 @@
+(a) echo displays a line of text. It prints the string "hello world" to standard output.
+(b) echo diplays a line f text. The syllables in the brackets are combined to create the words:
+consents consented confers confered presents presented prefers prefered
+(c) Prints or set the system date and time.
+(d) Prints the user name associated with the current effective user ID.
+(e) Displays a calendar of the year 2000.
+(f) Displays the 9th month, September, of the year 1752. There is an error in the ouput where the numbers skip from 2 to 14.
+(g) It is an arbitrary precision calculator language. The '-l' stands for mathlib. Therefore, it defines the standard math library.
+(h) Displays the solution to 5+4 using the standard math library. The pipe or '|' separates the sequence of commands to be executed one after the other.
+           
