@@ -7,11 +7,12 @@ def count_observations(lines):
     for line in lines:
         line = line.strip()
         if line == '':
+            counts.append
             counts.append(current)
             current = 0
         else:
             current += 1
-            counts.append(current)
+    counts.append(current)
     return counts
 
 data = ['a single line\n']
@@ -22,3 +23,6 @@ assert count_observations(data) == [2], 'two lines failed'
 
 data = ['two\n', '\n', 'records\n']
 assert count_observations(data) == [1, 1], 'two records failed'
+
+reader = open('observations.txt', 'r')
+print(count_observations(reader))
